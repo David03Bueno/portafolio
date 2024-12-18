@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Link } from "react-router-dom";
 import { Container, Wrapper,LogoContainer,Menu,MenuItem,MenuItemLink, MobileIcon } from "./Navbar.elements.js";
 import { TiDeviceDesktop } from "react-icons/ti";
 import { IconContext } from "react-icons/lib";
@@ -34,7 +35,7 @@ function Navbar() {
 
                 <Menu open={showMobileMenu}>
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink as={Link} to={'/'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <div>
                         <FaHome/>
                         INICIO
@@ -42,7 +43,7 @@ function Navbar() {
                         </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink as={Link} to={'/sobreMi'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <div>
                         <FaUserAlt/>
                         SOBRE MI
@@ -50,7 +51,7 @@ function Navbar() {
                         </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink as={Link} to={'/portafolio'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <div>
                         <FaBriefcase/>
                         PORTAFOLIO
@@ -58,7 +59,7 @@ function Navbar() {
                         </MenuItemLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink>
+                        <MenuItemLink as={Link} to={'/contacto'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <div>
                         <FaGlasses/>
                         CONTACTO
