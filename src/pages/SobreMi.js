@@ -1,8 +1,11 @@
+import './SobreMi.css'
 function SobreMi(){
     return(
-        <h1>
-            sobreMi
-        </h1>
+        <div className="Constains">
+            <div class="contenedor">
+
+            </div>
+        </div>
     );
 }
 

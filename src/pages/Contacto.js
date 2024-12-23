@@ -1,6 +1,10 @@
 function Contacto(){
     return(
-        <h1>Mi contacnto</h1>
+        <div className="Constains">
+            <div class="contenedor">
+
+            </div>
+        </div>
     );
 }
 

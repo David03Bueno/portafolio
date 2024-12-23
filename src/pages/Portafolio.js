@@ -1,8 +1,10 @@
 function Portafolio(){
     return(
-    <h1>
-        Mi portafolio
-    </h1>
+        <div className="Constains">
+            <div class="contenedor">
+
+            </div>
+        </div>
     );
 }
 export default Portafolio;

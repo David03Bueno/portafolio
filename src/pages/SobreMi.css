@@ -1,0 +1,9 @@
+.Constains {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(3, 12, 12), rgb(7, 170, 225));
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
