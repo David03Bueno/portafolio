@@ -39,7 +39,7 @@ export const LogoContainer = styled.div`
     }
 
     svg  {
-    fill:rgb(7, 170, 225);
+    fill:rgb(3, 255, 251);
     margin-right: 2rem;
     }
 `;
@@ -89,8 +89,8 @@ export const MenuItemLink = styled.a`
     text-decoration: none;
 
     &:hover {
-        color: #fff;
-        background-color:rgb(7, 170, 225);
+        color: black;
+        background-color:rgb(3, 255, 251);
         transition: 0.5s all ease;
 
         div{
@@ -109,7 +109,7 @@ export const MenuItemLink = styled.a`
 
         svg {
         display: none;
-        fill:rgb(7, 170, 225);
+        fill:rgb(3, 255, 251);
         margin-right: 0.5rem;
         }
     }
@@ -170,7 +170,7 @@ align-items: center;
 cursor: pointer;
 
     svg {
-    fill:rgb(7, 170, 225);
+    fill:rgb(3, 255, 251);
     margin-right: 2rem;
     }
 }
