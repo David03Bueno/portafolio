@@ -1,0 +1,200 @@
+.Constains1 {
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.07), rgba(9, 252, 240, 0.662)), 
+                url('../assets/DALL·E 2024-12-22.webp');
+    background-size:cover; /* Ajusta la imagen para ocupar el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:  right; /* Imagen posicionada a la derecha */
+    font-family: 'Trebuchet MS', sans-serif; /* Fuente global */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+}
+
+.contenedor {
+    width: 100%; /* Ajusta el ancho del contenedor */
+    max-width: auto; /* Ancho máximo */
+    background:  rgba(0, 0, 0, 0.607);
+    color: rgb(0, 0, 0); /* Color del texto */
+    display: flex; /* Flexbox para organizar elementos internos */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: left; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el contenedor */
+    /* border-radius: 15px; Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding en el tamaño */
+    margin: 0px;
+    height: 100vh;
+}
+.webCitas{
+    margin: 30px;
+    max-width: auto;
+    display: flex;
+    background:  rgba(4, 245, 245, 0.834);
+    color: rgb(4, 245, 245); /* Color del texto */
+    border-radius: 20px;
+    height: 60vh;
+    animation: slideIn 1s ease-in-out forwards; /* Animación suave */   
+}
+
+.imagen p {
+    font-size: 1.2rem; /* Tamaño del texto ligeramente menor */
+    text-align: center; /* Justificación para un diseño profesional */
+    line-height: 1.8; /* Espaciado entre líneas */
+    margin-top: 10px; /* Espaciado desde el título */
+    color: #000000; /* Color gris claro */
+}
+.imagen{
+    width: 100%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center; /* Alinea los textos al inicio verticalmente */
+    text-align: center; /* Alinea el texto a la izquierda */
+}
+.imagen img {
+    align-self: flex-start; /* Mantén la imagen alineada a la izquierda */
+    border-radius: 50%; /* Opcional: hace la imagen circular */
+    margin-right: 25px;
+    margin-left: 60px;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateY(-15px); /* Mueve hacia arriba */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra para mayor efecto */
+      }
+    
+}
+.portada {
+    width: 80%;
+    display: flex; /* Flexbox para organizar elementos */
+    flex-direction: line; /* Coloca el contenido de manera vertical */
+    justify-content: center; /* Alinea verticalmente al centro */
+    align-items: center; /* Alinea horizontalmente al centro */
+    text-align: center; /* Alinea el texto al centro */
+    margin-left: 0; /* Ajusta el margen automáticamente */
+    margin-right: auto; /* Centra horizontalmente */
+    gap: 20px; /* Espacio entre elementos del contenido */
+  }
+  
+  .botones-container {
+    display: flex; /* Flexbox para organizar los botones */
+    justify-content: center; /* Alinea los botones horizontalmente */
+    flex-wrap: wrap; /* Permite que los botones se muevan a una nueva línea si no caben */
+    gap: 15px; /* Espacio entre los botones */
+  }
+
+.portada button{
+
+    font-size: 2rem; /* Tamaño grande */
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #130606;
+    color: #e6e5e5;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative; /* Asegura que no se mueva de su lugar */
+
+        &:hover {
+            color: rgb(0, 0, 0);
+            background-color:rgb(14, 251, 247);
+            transform: translateY(-15px); /* Mueve hacia arriba */
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra para mayor efecto */
+    }
+    
+}
+
+
+/* Botón base (estilos comunes) */
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: none;
+    flex-wrap: wrap;
+
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* WhatsApp */
+  .whatsapp {
+    background-color: #25d366; /* Color de WhatsApp */
+  }
+  
+  /* Gmail */
+  .gmail {
+    background-color: #d44638; /* Color de Gmail */
+  }
+  
+  /* GitHub */
+  .github {
+    background-color: #333; /* Color de GitHub */
+  }
+  
+  /* LinkedIn */
+  .linkedin {
+    background-color: #0077b5; /* Color de LinkedIn */
+  }
+  
+  /* Ícono */
+  .icon {
+    font-size: 24px;
+  }
+  
+  /* Asegura que los enlaces no tengan estilo predeterminado */
+  .link {
+    text-decoration: none; /* Elimina subrayado */
+    color: inherit; /* Toma el color del botón */
+  }
+
+
+  .botonesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    font-size: 11%;
+  }
+  .download {
+    background-color: #000000; /* Color del botón de descarga */
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  @keyframes slideIn {
+    from {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

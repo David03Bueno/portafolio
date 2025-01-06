@@ -135,7 +135,7 @@
 .conocimientos{
     width: 80%; /* Ajusta el ancho del contenedor */
     max-width: 1200px; /* Ancho máximo */
-    background:  rgb(3, 255, 251, 0.9);
+    background:  rgba(3, 255, 251, 0.771);
 
     color: rgb(4, 245, 245); /* Color del texto */
     display: flex; /* Flexbox para organizar elementos internos */

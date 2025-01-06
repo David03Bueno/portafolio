@@ -50,7 +50,7 @@ function SobreMi() {
         </p>
       </div>
       <div className={sobre.conocimientos}>
-        <h2>conocimientos</h2>
+        <h2>Habilidades</h2>
         <div className={sobre.Iconos}>
         <img src={icon_cshar} width={60} height={60}/>
         <img src={icon_net} width={60} height={60}/>
@@ -63,7 +63,6 @@ function SobreMi() {
         <img src={icon_sqlserver} width={60} height={60}/>
         <img src={icon_mySql} width={60} height={60}/>
         <img src={icon_git} width={60} height={60}/>
-
         </div>
       </div>
     </div>

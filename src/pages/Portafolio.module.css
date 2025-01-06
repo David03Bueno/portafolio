@@ -1,0 +1,178 @@
+.Constains1 {
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.07), rgba(9, 252, 240, 0.662)), 
+                url('../assets/DALL·E 2024-12-22.webp');
+    background-size:cover; /* Ajusta la imagen para ocupar el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position:  right; /* Imagen posicionada a la derecha */
+    font-family: 'Trebuchet MS', sans-serif; /* Fuente global */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: auto; /* Ocupa toda la altura de la ventana */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+}
+
+.contenedor {
+    width: 100%; /* Ajusta el ancho del contenedor */
+    max-width: auto; /* Ancho máximo */
+    background:  rgba(0, 0, 0, 0.607);
+    color: rgb(0, 0, 0); /* Color del texto */
+    display: flex; /* Flexbox para organizar elementos internos */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: left; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el contenedor */
+    /* border-radius: 15px; Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding en el tamaño */
+    margin: 0px;
+}
+
+.contenedor h1 {
+    font-size: 3rem; /* Ajusta el tamaño según lo necesario */
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(214, 214, 214); /* Cambiar el color del texto a negro */
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin: 10px ; /* Espaciado para separarlo de otros elementos */
+
+}
+.contenedor h2 {
+    font-size: 2rem; /* Tamaño grande */
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0); /* Un color más llamativo */
+    text-align: left; /* Centrar el texto */
+    margin-bottom: 20px; /* Separarlo del párrafo */
+    text-transform:capitalize; /* Todo en mayúsculas para destacar */
+}
+.webCitas{
+    display: flex;
+    background:  rgba(4, 245, 245, 0.834);
+    color: rgb(4, 245, 245); /* Color del texto */
+    border-radius: 20px;
+    height: 100vh;
+    animation: slideIn 1s ease-in-out forwards; /* Animación suave */
+    
+    
+}
+
+.webCitas2{
+    margin-top: 30px;
+    display: flex;
+    background:  rgba(4, 245, 245, 0.834);
+    color: rgb(4, 245, 245); /* Color del texto */
+    border-radius: 20px;
+    height: 100vh;
+    animation: slideIn 1s ease-in-out forwards; /* Animación suave */
+
+}
+.webcontenido p {
+    font-size: 1.1rem; /* Tamaño del texto ligeramente menor */
+    text-align: justify; /* Justificación para un diseño profesional */
+    font-weight: 500;
+    line-height: 1.8; /* Espaciado entre líneas */
+    margin-top: 10px; /* Espaciado desde el título */
+    color: #000000; /* Color gris claro */
+    animation: slideIn2 1s ease-in-out forwards; /* Animación suave */
+    max-width: 500px;
+}
+.webcontenido2 p {
+    font-size: 1.1rem; /* Tamaño del texto ligeramente menor */
+    text-align: justify; /* Justificación para un diseño profesional */
+    font-weight: 500;
+    line-height: 1.8; /* Espaciado entre líneas */
+    margin-top: 10px; /* Espaciado desde el título */
+    color: #000000; /* Color gris claro */
+    animation: slideIn2 1s ease-in-out forwards; /* Animación suave */
+    max-width: 500px;
+}
+
+
+.webcontenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+
+    
+}
+.webcontenido2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.Iconos h2{
+    margin: 20px;
+    display:flex;
+    align-items: left; /* Centra el contenido horizontalmente */
+    justify-content: left; /* Centra el contenido verticalmente */
+
+    font-size: 1.5rem; /* Tamaño grande */
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0); /* Un color más llamativo */
+    text-align: left; /* Centrar el texto */
+    text-transform:capitalize; /* Todo en mayúsculas para destacar */
+}
+
+.webcontenido2 h3{
+    margin: 20px;
+    display:flex;
+    align-items: left; /* Centra el contenido horizontalmente */
+    justify-content: left; /* Centra el contenido verticalmente */
+    padding-right: 70%;
+    font-size: 1.5rem; /* Tamaño grande */
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0); /* Un color más llamativo */
+    text-align: left; /* Centrar el texto */
+    text-transform:capitalize; /* Todo en mayúsculas para destacar */
+}
+.Iconos img{
+    justify-content: space-between;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative; /* Asegura que no se mueva de su lugar */
+
+    &:hover {
+        transform: translateY(-15px); /* Mueve hacia arriba */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra para mayor efecto */
+      }
+}
+.Iconos3 img{
+    justify-content: space-between;
+    
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative; /* Asegura que no se mueva de su lugar */
+
+    &:hover {
+        transform: translateY(-15px); /* Mueve hacia arriba */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra para mayor efecto */
+      }
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(200%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
