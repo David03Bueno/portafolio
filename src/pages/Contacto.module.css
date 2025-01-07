@@ -39,8 +39,10 @@
     background:  rgba(4, 245, 245, 0.834);
     color: rgb(4, 245, 245); /* Color del texto */
     border-radius: 20px;
-    height: 60vh;
+    height: auto;
     animation: slideIn 1s ease-in-out forwards; /* Animación suave */   
+    flex-wrap: wrap;
+
 }
 
 .imagen p {
@@ -81,7 +83,9 @@
     text-align: center; /* Alinea el texto al centro */
     margin-left: 0; /* Ajusta el margen automáticamente */
     margin-right: auto; /* Centra horizontalmente */
-    gap: 20px; /* Espacio entre elementos del contenido */
+    gap: 10px; /* Espacio entre elementos del contenido */
+    flex-wrap: wrap;
+
   }
   
   .botones-container {

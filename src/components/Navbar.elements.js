@@ -5,6 +5,8 @@ export const Container = styled.div`
     width: 100%;
     height: 70px;
     background:rgb(3, 12, 12);
+      z-index: 1000; /* Asegúrate de que tenga prioridad sobre otros elementos */
+
 `;
 
 export const Wrapper = styled.div`
@@ -61,6 +63,8 @@ export const Menu = styled.ul`
     flex-direction: column;
     align-items: center;
     transition: 0.5s all ease;
+        z-index: 999; /* Elevado para que se muestre por encima */
+
     }
 `;
 export const MenuItem = styled.li`
