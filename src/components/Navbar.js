@@ -35,7 +35,7 @@ function Navbar() {
 
                 <Menu open={showMobileMenu}>
                     <MenuItem>
-                        <MenuItemLink as={Link} to={'/'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
+                        <MenuItemLink as={Link} to={'/build'} onClick={() => setShowMobileMenu(!showMobileMenu)}>
                         <div>
                         <FaHome/>
                         INICIO
