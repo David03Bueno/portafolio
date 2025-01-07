@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter  as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import "./App.css"
 import Inicio from './pages/Inicio';
@@ -10,7 +10,7 @@ function App() {
    <Router>
      <Navbar/>
       <Routes>
-        <Route path='/build' element={<Inicio/>}/>
+        <Route path='/' element={<Inicio/>}/>
         <Route path='/sobreMi' element={<SobreMi/>}/>
         <Route path='/portafolio' element={<Portafolio/>}/>
         <Route path='/contacto' element={<Contacto/>}/>
