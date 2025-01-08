@@ -206,7 +206,7 @@ font-size:40px;
     display: flex;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
     align-items: center; /* Centra verticalmente */
-    height: auto; /* Altura mínima de la pantalla */
+    height: 100vh; /* Altura mínima de la pantalla */
 
 }
 
