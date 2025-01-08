@@ -204,9 +204,10 @@ font-size:40px;
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
     align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Altura mínima de la pantalla */
+    min-height: 100vh; /* Altura mínima de la pantalla */
 
 }
 
@@ -226,7 +227,6 @@ font-size:40px;
     text-align: left; /* Centrar el texto */
     margin-bottom: 25px; /* Separarlo del párrafo */
     text-transform: uppercase; /* Todo en mayúsculas para destacar */
-    
 }
 .contenedor p {
     font-size: 1.2rem; /* Tamaño del texto ligeramente menor */
@@ -247,29 +247,10 @@ font-size:40px;
     align-items: left; /* Centra horizontalmente */
     padding: 20px;
     box-sizing: border-box; /* Asegura que padding no afecte el tamaño total */
-    height: auto; /* Altura mínima de la pantalla */
+    min-height: 100vh; /* Altura mínima de la pantalla */
     border: none; /* Elimina cualquier borde visible */
-    
 }
-@media screen and (max-width: 768px) {
-    .contenedor {
-        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        text-align: center; /* Centrar el texto */
-        background-size:  18px;; /* Ajusta la imagen para ocupar el contenedor */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        background-position:  right;
-        height: auto;
-    }
 
-    .presentacion {
-        width: 100%;
-        margin: 0; /* Eliminar márgenes */
-    }
-
-    .imagen {
-        width: 100%;
-    }
-}
 /* Animaciones */
 @keyframes slideIn {
     from {
