@@ -71,7 +71,7 @@ function Contacto() {
       <div className={contac.botonesContainer}>
         {/* Botón para descargar el currículum */}
         <a
-          href="/Curriculum_LuisDavidBueno.pdf" /* Ruta del archivo en la carpeta public */
+          href="build/Curriculum_LuisDavidBueno.pdf" /* Ruta del archivo en la carpeta public */
           download="Curriculum.pdf" /* Nombre del archivo al descargar */
           className={contac.link}
         >

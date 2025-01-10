@@ -35,10 +35,21 @@ function SobreMi() {
             Uno de estos cursos fue el de "Instalación, Configuración,
             Mantenimiento y Reparación de Computadoras", el cual, tras
             completarlo, me permitió conseguir mi primer empleo en el área como
-            informático en el Supermercado Central. Posteriormente, tuve la
+            informático en el Supermercado Central.
+            
+          </strong>
+        </p>
+        <p>
+          <strong>
+            Posteriormente, tuve la
             fortuna de obtener una beca otorgada por el MESCYT para estudiar la
             carrera de Desarrollo de Software en el Instituto Tecnológico de las
-            Américas (ITLA), programa que estoy próximo a culminar en 2025. Mi
+            Américas (ITLA), programa que estoy próximo a culminar en 2025. 
+          </strong>
+        </p>
+        <p>
+          <strong>
+            Mi
             objetivo profesional es contribuir al crecimiento de una empresa o
             entidad mediante el desarrollo de soluciones de software innovadoras
             y eficientes. Aspiro a aplicar y perfeccionar mis habilidades
@@ -46,6 +57,7 @@ function SobreMi() {
             excelencia. Me comprometo a cumplir con responsabilidad las metas
             asignadas y a promover el éxito de los proyectos tecnológicos de la
             organización.
+
           </strong>
         </p>
       </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/build/static/css/main.623cbac0.css",
-    "main.js": "/portafolio/build/static/js/main.88cdb1e4.js",
+    "main.css": "/portafolio/build/static/css/main.d8ae33c1.css",
+    "main.js": "/portafolio/build/static/js/main.ca98361f.js",
     "static/media/InicioJavaCitas.png": "/portafolio/build/static/media/InicioJavaCitas.bf90459643c78287d89f.png",
     "static/media/AgendarJavaCitas.png": "/portafolio/build/static/media/AgendarJavaCitas.8ec6055fa35b7a268e01.png",
     "static/media/AyudaJavaCitas.png": "/portafolio/build/static/media/AyudaJavaCitas.6ec284156381611693cd.png",
@@ -26,11 +26,11 @@
     "static/media/slick.ttf": "/portafolio/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portafolio/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portafolio/build/index.html",
-    "main.623cbac0.css.map": "/portafolio/build/static/css/main.623cbac0.css.map",
-    "main.88cdb1e4.js.map": "/portafolio/build/static/js/main.88cdb1e4.js.map"
+    "main.d8ae33c1.css.map": "/portafolio/build/static/css/main.d8ae33c1.css.map",
+    "main.ca98361f.js.map": "/portafolio/build/static/js/main.ca98361f.js.map"
   },
   "entrypoints": [
-    "static/css/main.623cbac0.css",
-    "static/js/main.88cdb1e4.js"
+    "static/css/main.d8ae33c1.css",
+    "static/js/main.ca98361f.js"
   ]
 }

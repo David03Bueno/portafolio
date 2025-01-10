@@ -39,7 +39,7 @@
     background:  rgba(4, 245, 245, 0.834);
     color: rgb(4, 245, 245); /* Color del texto */
     border-radius: 20px;
-    height: auto;
+    height: 60%;
     animation: slideIn 1s ease-in-out forwards; /* Animación suave */   
     flex-wrap: wrap;
 
@@ -64,7 +64,7 @@
     border-radius: 50%; /* Opcional: hace la imagen circular */
     margin-right: 25px;
     margin-left: 60px;
-    margin-top: 10%;
+    margin-top: 5%;
     cursor: pointer;
     transition: transform 0.2s ease;
 

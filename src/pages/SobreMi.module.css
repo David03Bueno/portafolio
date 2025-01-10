@@ -67,8 +67,10 @@
     color: #000000; /* Color gris claro */
 }
 .contenedor p {
+    max-width: 90%;
+    margin-left: 5%;
     font-size: 1.2rem; /* Tamaño del texto ligeramente menor */
-    text-align: center; /* Justificación para un diseño profesional */
+    text-align: justify; /* Justificación para un diseño profesional */
     line-height: 1.8; /* Espaciado entre líneas */
     margin-top: 0px; /* Espaciado desde el título */
     color: #000000; /* Color gris claro */
@@ -156,6 +158,7 @@
     cursor: pointer;
     transition: transform 0.2s ease;
     position: relative; /* Asegura que no se mueva de su lugar */
+    border-radius: 50px;
 
     &:hover {
         transform: translateY(-15px); /* Mueve hacia arriba */
